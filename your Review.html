@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review</title>
+</head>
+
+<body bgcolor="#D6F4D2">
+
+    <table width="100%">
+        <tr>
+            <td bgcolor="#A4DD9E" align="center">Step 1: Account</td>
+
+            <td bgcolor="#A4DD9E" align="center">Step 2: Personal Details</td>
+
+            <td bgcolor="#72A3DE" align="center">Step 3: Your Review</td>
+        </tr>
+    </table>
+
+    <fieldset>
+        <legend>Your Review:</legend>
+        <br>
+        <form>
+            <label for="heard from">
+                How did you hear about us?
+            </label>
+            <select name="heard from" id="heard from" required>
+                <option value="not selected" selected>Select your option</option>
+                <option value="Through a Friend">Through a Friend</option>
+                <option value="Linkedin">Linkedin</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+            Would you visit again?
+            <br>
+            <input type="radio" name="visit again">Yes
+            <input type="radio" name="visit again">No
+            <input type="radio" name="visit again">Maybe
+
+            <br><br>
+            <label for="Comments">
+                Comments:
+            </label>
+            <br>
+            <textarea name="Comments" id="Comments" cols="40" rows="5" placeholder="Enter you comments here">
+            </textarea>
+
+            <br><br>
+            <label for="Documents">
+                Documents:
+            </label>
+            <br>
+            <input type="file" name="Documents" id="Documents">
+            <br>
+            <br>
+
+            <input type="checkbox" name="email updates">Sign me up for email updates
+        </form>
+        <br>
+        <a href="Personal Details.html"><img src="./images/back.png" alt="Back" width="85" height="30"></a>
+       
+        <a href="./Thankyou.html"><img src="./images/submit.png" alt="Submit" width="85" height="30">
+        
+
+    </fieldset>
+</body>
+
+</html>

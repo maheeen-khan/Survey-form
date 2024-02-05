@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+</head>
+
+<body bgcolor="#D6F4D2">
+
+    <table width="100%">
+        <tr>
+            <td bgcolor="#72A3DE" align="center">Step 1: Account</td>
+
+            <td bgcolor="#CCCCCC" align="center">Step 2: Personal Details</td>
+
+            <td bgcolor="#CCCCCC" align="center">Step 3: Your Review</td>
+        </tr>
+    </table>
+
+    <fieldset>
+        <legend>Account</legend>
+        <br>
+        <form>
+            <label for="email">
+                Email Address:
+            </label>
+            <br>
+            <input type="email" name="email" id="email"  placeholder="Enter Email" size="50" title="Enter email address"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+            <br><br>
+            <label for="password">
+                Password:
+            </label>
+            <br>
+            <input type="password" name="password" id="password" placeholder="Enter Password" size="50" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+            required>
+
+            <br><br>
+            <label for="confirm password">
+                Confirm Password:
+            </label>
+            <br>
+            <input type="password" name="confirm password" id="confirm password" placeholder="Confirm Password"
+            size="50" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Retype the Password" required>
+        </form>
+        <br>
+        <a href="./index.html"><img src="./images/back.png" alt="Back" width="85" height="30"></a>
+
+        <a href="./Personal Details.html"><img src="./images/next.png" alt="Back" width="85" height="30"></a>
+
+    </fieldset>
+</body>
+
+</html>
